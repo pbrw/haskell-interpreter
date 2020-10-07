@@ -1,0 +1,25 @@
+int nwd(int x, int y) {
+	if (y == 0) return x;
+	return nwd(y, x % y);
+}
+
+int main () {
+    cost A {
+        bool x = 1 + 2 * 3 > 3 + 2 * 1 ;
+    }
+    
+    cost B {
+        bool x = 1 + 2 * 3 > 3 + 2 * 1 ;
+    }
+
+    cost A {
+        bool x = 1 + 2 * 3 > 3 + 2 * 1 ;
+    }
+
+    cost C {
+        print nwd(832426, 498372);
+    }
+
+    print "Cost Blocks!";
+    return 0;      
+}

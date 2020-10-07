@@ -1,0 +1,14 @@
+int main() {
+    int ans = 1;
+    int v = 2;
+    int p = 10;
+    int cnt = 0;
+    while (cnt < p) {
+        ans = ans * 2;
+        cnt = cnt + 1;
+    }
+    print "2^10 equals...";
+    print ans;
+
+    return 0;
+}

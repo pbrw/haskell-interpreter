@@ -1,0 +1,11 @@
+int main() {
+    int x = 3 + 2;
+    bool y = true || false;
+    string z = "Hello World!";
+
+    print x;
+    print y;
+    print z;
+
+    return 0; 
+}

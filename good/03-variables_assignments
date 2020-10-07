@@ -1,0 +1,10 @@
+int main () {
+    string s = "Hello World!";
+    print s;
+    int x = (2 + 5) * (12 / (7 % 5));
+    print x;
+    bool y = x >= 32;
+    print y;
+
+    return 0;
+}

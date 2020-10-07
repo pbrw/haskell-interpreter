@@ -1,0 +1,6 @@
+int main () {
+    int x = 0;
+    if (true) if (false) x = 1; else x = 2;
+    print x;
+    return 0;
+}

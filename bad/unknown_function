@@ -1,0 +1,4 @@
+int main() {
+    print f(3);
+    return 0;
+}

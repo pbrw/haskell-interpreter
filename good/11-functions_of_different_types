@@ -1,0 +1,19 @@
+int f(int x) {
+    return -x;
+}
+
+bool g(bool x) {
+    return (!x);
+}
+
+string id(string x) {
+    return x;
+}
+
+int main () {
+    print f(3);
+    print g(false);
+    print id("Hello");
+
+    return 0;
+}

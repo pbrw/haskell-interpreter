@@ -1,0 +1,11 @@
+void f (ref int x) {
+  x = x + 1;
+}
+
+int main () {
+  int a = 1;
+  print a;
+  f(a);
+  print a;
+  return 0;
+}
